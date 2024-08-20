@@ -1,0 +1,27 @@
+###
+POST https://vigilant-enigma-v6gj79ggq5rwfp9gp-8080.app.github.dev/tarefas
+Content-Type: application/json
+
+{
+    "descricao": "atividade 2",
+    "concluido": true
+}
+
+###
+GET https://vigilant-enigma-v6gj79ggq5rwfp9gp-8080.app.github.dev/tarefas
+
+
+###
+GET https://vigilant-enigma-v6gj79ggq5rwfp9gp-8080.app.github.dev/tarefas/2
+
+###
+PUT https://vigilant-enigma-v6gj79ggq5rwfp9gp-8080.app.github.dev/tarefas/2
+Content-Type: application/json
+
+{
+    "descricao": "novo teste",
+    "concluido": false
+}
+
+###
+DELETE https://vigilant-enigma-v6gj79ggq5rwfp9gp-8080.app.github.dev/tarefas/2
